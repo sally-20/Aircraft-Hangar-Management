@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Airplane Hangar Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+        }
+        .top-bar {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+        .menu {
+            margin-right: 20px;
+        }
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+        .content {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 40px);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            color: #fff;
+        }
+        .content .text-container {
+            position: relative;
+            z-index: 1;
+        }
+        .content:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+        .cta-button {
+            background-color: #000;
+            color: #fff;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo">Airplane Hangar Management</div>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="login.php">Login</a>
+        </div>
+    </div>
+    <div id="home" class="content" style="background-image: url('https://media.gettyimages.com/id/532377803/photo/hangar-garage-warehouse-with-passenger-airplane.jpg?s=612x612&w=0&k=20&c=jpsga0eiKd0YviAuBRA6X-FdCk6lzgCttiuBPZrwfqE=');">
+        <div class="text-container">
+            <h1>Welcome to Airplane Hangar Management</h1>
+            <p>Efficiently manage your airplane hangars with our powerful management system.</p>
+            <a href="#about" class="cta-button">Learn More</a>
+        </div>
+    </div>
+    <div id="about" class="content" style="background-image: url('https://media.gettyimages.com/id/830139-001/photo/commercial-aircraft-in-hangar.jpg?s=612x612&w=0&k=20&c=GOZW_y-wU-4Xqfd-PAXxYC307V15i_STkLhROvjgyqk=');">
+        <div class="text-container">
+            <h1>About Airplane Hangar Management</h1>
+            <p>Airplane Hangar Management is a comprehensive solution for efficiently managing your airplane hangars. Our system provides advanced features for hangar organization, aircraft tracking, reservations management, and generating reports.</p>
+            <a href="#home" class="cta-button">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
