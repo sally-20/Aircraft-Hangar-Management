@@ -24,7 +24,7 @@ This repository contains the source code for an Airplane Hangar Management Syste
    - Open Visual Studio Code (or any other code editor of your choice).
    - Clone the Airplane Hangar Management System repository from GitHub to your local machine by running the following command in the terminal:
      ```
-     git clone https://github.com/your-username/airplane-hangar-management.git
+     git clone https://github.com/sally-20/Airplane-Hangar-Management.git
      ```
    - Replace `your-username` with your actual GitHub username.
 
@@ -50,7 +50,7 @@ This repository contains the source code for an Airplane Hangar Management Syste
    - Go back to XAMPP Control Panel and click the "Start" buttons next to Apache and MySQL if they are not already running.
 
 8. Access the Application:
-   - Open your web browser and go to `http://localhost/airplane-hangar-management/`.
+   - Open your web browser and go to `http://localhost/Airplane-Hangar-Management/`.
    - You should see the Airplane Hangar Management System homepage, and you can proceed to register and log in to start using the system.
 
 9. Use the Application:
