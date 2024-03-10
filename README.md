@@ -26,7 +26,6 @@ This repository contains the source code for an Airplane Hangar Management Syste
      ```
      git clone https://github.com/sally-20/Airplane-Hangar-Management.git
      ```
-   - Replace `your-username` with your actual GitHub username.
 
 4. Database Setup:
    - Open `phpMyAdmin` by navigating to `http://localhost/phpmyadmin/` in your web browser.
